@@ -15,6 +15,8 @@ Beyondcoin is an open source peer-to-peer network-based digital currency. Employ
 
 [https://beyondcoin.io](https://beyondcoin.io)
 
+#### "Go beyond the impossible" - Beyondtoshi
+
 Table of Contents
 -----------------
 
