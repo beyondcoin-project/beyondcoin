@@ -160,6 +160,7 @@ BITCOIN_CORE_H = \
   scheduler.h \
   script/descriptor.h \
   script/ismine.h \
+  stats/stats.h \
   script/sigcache.h \
   script/sign.h \
   script/standard.h \
@@ -393,6 +394,7 @@ libbitcoin_common_a_SOURCES = \
   scheduler.cpp \
   script/descriptor.cpp \
   script/ismine.cpp \
+  stats/stats.cpp \
   script/sign.cpp \
   script/standard.cpp \
   warnings.cpp \

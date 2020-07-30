@@ -25,6 +25,7 @@ License: GNU-All-permissive-License
 
 Files: src/qt/res/icons/add.png
        src/qt/res/icons/address-book.png
+       src/qt/res/icons/chart.png
        src/qt/res/icons/chevron.png
        src/qt/res/icons/configure.png
        src/qt/res/icons/debugwindow.png

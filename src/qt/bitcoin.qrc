@@ -56,6 +56,7 @@
         <file alias="backg">res/icons/beyondcoin_wallet.png</file>
         <file alias="network_disabled">res/icons/network_disabled.png</file>
         <file alias="proxy">res/icons/proxy.png</file>
+        <file alias="chart">res/icons/chart.png</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="spinner-000">res/movies/spinner-000.png</file>
