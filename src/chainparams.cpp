@@ -104,10 +104,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1577836800; // January 1, 2020
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000079fd1bfa7e89d4");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000c0445ae8dc953c");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x48525f181fef67737ae4902b0602e412ff98c42521f9f2f0e96e2bc8d027abf2"); // 52416
+        consensus.defaultAssumeValid = uint256S("0x210119fcd307909da3c034012c83ff258a89db262d2fa9adca0e63c054990d49"); // 92736
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -175,15 +175,19 @@ public:
                 { 44352, uint256S("a93d5e64828d81f398942528fa8117758586248d63c2601120373f3c60df4929")},
                 { 52416, uint256S("48525f181fef67737ae4902b0602e412ff98c42521f9f2f0e96e2bc8d027abf2")},
                 { 60480, uint256S("bd3e841ad2cbbd522e1e92d617dcae2e5c226457ef1330e82db1b06c04230e14")},
-                //{ 68544, uint256S("")},
+                { 68544, uint256S("9a68906949af97eceb4a2633f7699f3db6538a0d87c46bf1787297dacf723041")},
+                { 76608, uint256S("912f4fcf66197b901a1b0b2e8b78f1de10087a1515e7e1403a77e1bf3094cfcd")},
+                { 84672, uint256S("0811c06502983c62a0905b8a90f7524b5f2566951852df6f89dd928952a13e5d")},
+                { 92736, uint256S("210119fcd307909da3c034012c83ff258a89db262d2fa9adca0e63c054990d49")},
+                //{ 111864, uint256S("")},
             }
         };
 
         chainTxData = ChainTxData{
-            // Data from RPC: getchaintxstats 60480 48525f181fef67737ae4902b0602e412ff98c42521f9f2f0e96e2bc8d027abf2
-            /* nTime    */ 1580078025,
-            /* nTxCount */ 77668,
-            /* dTxRate  */ 0.008
+            // Data from RPC: getchaintxstats 92736 210119fcd307909da3c034012c83ff258a89db262d2fa9adca0e63c054990d49
+            /* nTime    */ 1594933544,
+            /* nTxCount */ 126371,
+            /* dTxRate  */ 0.005
         };
 
         /* disable fallback fee on mainnet */
