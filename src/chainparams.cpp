@@ -250,11 +250,11 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.beyondcoin.io", true);
-        vSeeds.emplace_back("bynd-test-dns1.beyondcoin.io", true);
-        vSeeds.emplace_back("bynd-test-dns2.beyondcoin.io", true);
-        vSeeds.emplace_back("54.157.251.114:14333", true);
-        vSeeds.emplace_back("52.13.212.231:14333", true);
+        vSeeds.emplace_back("testnet-seed.beyondcoin.io");
+        vSeeds.emplace_back("bynd-test-dns1.beyondcoin.io");
+        vSeeds.emplace_back("bynd-test-dns2.beyondcoin.io");
+        vSeeds.emplace_back("54.157.251.114:14333");
+        vSeeds.emplace_back("52.13.212.231:14333");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,85);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
