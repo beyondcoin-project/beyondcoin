@@ -3,12 +3,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "stats/stats.h"
+#include <stats/stats.h"
 
-#include "memusage.h"
-#include "utiltime.h"
+#include <memusage.h>
+#include <utiltime.h>
 
-#include "util.h"
+#include <util.h>
 
 static const uint32_t SAMPLE_MIN_DELTA_IN_SEC = 2;
 static const int CLEANUP_SAMPLES_THRESHOLD = 100;
