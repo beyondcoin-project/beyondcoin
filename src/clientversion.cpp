@@ -44,8 +44,8 @@ const std::string CLIENT_NAME("BeyondcoinCore");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives.
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "8e392da97dccd573cee4c79f8a47406eb48c6eee"
-#define GIT_COMMIT_DATE "Sat Aug 1 19:51:41 2020 +0000"
+#define GIT_COMMIT_ID "e2f4821d2bf1ed0eb88b4bf16f0b59369d64fe01"
+#define GIT_COMMIT_DATE "Sun Aug 2 00:00:41 2020 +0000"
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \
