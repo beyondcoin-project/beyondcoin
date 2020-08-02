@@ -553,7 +553,7 @@
         <widget class="QLabel" name="label">
          <property name="font">
           <font>
-           <pointsize>10</pointsize>
+           <pointsize>14</pointsize>
           </font>
          </property>
          <property name="layoutDirection">
@@ -586,6 +586,7 @@
          </property>
          <property name="font">
           <font>
+           <pointsize>10</pointsize>
            <italic>true</italic>
           </font>
          </property>
