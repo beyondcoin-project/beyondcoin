@@ -141,7 +141,9 @@ public:
         vSeeds.emplace_back("185.244.150.234:10333");
         vSeeds.emplace_back("3.132.131.183:10333");
         vSeeds.emplace_back("3.133.28.194:10333");
-
+        vSeeds.emplace_back("144.202.51.82:10333"); // Whoffie node #1
+        vSeeds.emplace_back("45.76.20.15:10333"); // Whoffie node #2
+        
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,26);
