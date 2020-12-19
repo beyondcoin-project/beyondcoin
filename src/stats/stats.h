@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_STATS_H
-#define BITCOIN_STATS_H
+#ifndef BITCOIN_STATS_STATS_H
+#define BITCOIN_STATS_STATS_H
 
 #include <sync.h>
 
@@ -61,4 +61,4 @@ public:
     mempoolSamples_t mempoolGetValuesInRange(uint64_t& fromTime, uint64_t& toTime);
 };
 
-#endif // BITCOIN_STATS_H
+#endif // BITCOIN_STATS_STATS_H
