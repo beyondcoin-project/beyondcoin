@@ -1,7 +1,7 @@
 Beyondcoin Core integration/staging tree [BYND, Ƀ]
 ==================================================
 
-![bynd_banner](https://cdn.beyondcoin.io/images/common/banners/bynd_banner.png)
+![bynd_banner](https://beyondcoin.io/assets/images/banners/bynd_banner.png)
 
 [![Build Status](https://travis-ci.org/beyondcoin-project/beyondcoin.svg?branch=master)](https://travis-ci.org/beyondcoin-project/beyondcoin)
 [![Build status](https://ci.appveyor.com/api/projects/status/qxam58ebbuw42my0?svg=true)](https://ci.appveyor.com/project/beyondcoin-project/beyondcoin-i7gkc)
